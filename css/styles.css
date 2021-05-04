@@ -388,8 +388,13 @@ mark,
     content: "\2014\00A0"; }
 
 .img-fluid {
+  position: relative;
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+  font-size: 1.25rem;
+  color: #007bff;
+
+}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -3029,6 +3034,9 @@ input[type="button"].btn-block {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between; }
+.navbar .avatar {
+  width: 5rem;
+}
 
 .navbar-brand {
   display: inline-block;
@@ -7276,19 +7284,19 @@ h3 {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem; }
   .masthead .masthead-heading {
-    font-size: 2.75rem;
+    font-size: 1.2rem;
     line-height: 2.75rem; }
   .masthead .masthead-subheading {
     font-size: 1.25rem; }
   .masthead .masthead-avatar {
-    width: 15rem; }
+    width: 4rem;  }
 
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem; }
     .masthead .masthead-heading {
-      font-size: 4rem;
+      font-size: 2rem;
       line-height: 3.5rem; }
     .masthead .masthead-subheading {
       font-size: 1.5rem; } }
